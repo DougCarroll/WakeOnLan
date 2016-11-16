@@ -1,4 +1,3 @@
-import java.io.*;
 import java.net.*;
 
 public class WakeOnLan {
@@ -11,6 +10,7 @@ public class WakeOnLan {
 			System.out.println("Example: java WakeOnLan 192.168.0.255 00-0D-61-08-22-4A");	
 		}
 		
+				
 		String ipStr = args[0];
 		String macStr = args[1];
 		
